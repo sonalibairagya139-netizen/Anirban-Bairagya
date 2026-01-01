@@ -1,0 +1,121 @@
+/* Auth Specific Styles */
+.auth-container-wrapper {
+    display: flex;
+    min-height: 100vh;
+}
+
+.auth-branding {
+    flex: 1;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/book-bg.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    text-align: center;
+}
+
+.auth-branding img {
+    height: 80px;
+    margin-bottom: 1rem;
+}
+
+.auth-branding h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.auth-branding p {
+    opacity: 0.9;
+}
+
+.auth-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: #fff;
+}
+
+.auth-box {
+    width: 100%;
+    max-width: 400px;
+    padding: 2rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.auth-box input[type="email"] {
+    margin-bottom: 24px;
+}
+
+/* Registration Form Spacing */
+.registration-form label {
+    display: block;
+    margin-bottom: 6px;  /* Space between label and input */
+}
+
+.registration-form input,
+.registration-form select {
+    width: 100%;
+    margin-bottom: 20px;  /* Space between form fields */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Keep existing button style */
+.registration-form button {
+    margin-top: 10px;  /* Space above button */
+}
+
+.auth-footer {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    background-color: transparent;
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.auth-footer-links {
+    margin-top: 0.5rem;
+}
+
+.auth-footer-links a {
+    color: #666;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.auth-footer-links a:hover {
+    color: var(--primary-color);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .auth-container-wrapper {
+        flex-direction: column;
+    }
+
+    .auth-branding {
+        padding: 2rem 1rem;
+    }
+
+    .auth-content {
+        padding: 1rem;
+    }
+
+    .auth-footer {
+        position: static;
+        transform: none;
+        padding: 1rem 0;
+    }
+}

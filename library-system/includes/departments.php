@@ -1,0 +1,27 @@
+<?php
+$departments = [
+    "CSE"  => "Computer Science and Engineering",
+    "IT"   => "Information Technology",
+    "AIML" => "Artificial Intelligence & Machine Learning",
+    "DS"   => "Data Science",
+    "ECE"  => "Electronics and Communication Engineering",
+    "EEE"  => "Electrical and Electronics Engineering",
+    "EE"   => "Electrical Engineering",
+    "ME"   => "Mechanical Engineering",
+    "CE"   => "Civil Engineering",
+    "CHE"  => "Chemical Engineering",
+    "BT"   => "Biotechnology",
+    "BME"  => "Biomedical Engineering",
+    "AERO" => "Aeronautical Engineering",
+    "AUTO" => "Automobile Engineering",
+    "MT"   => "Mechatronics Engineering",
+    "PIE"  => "Production & Industrial Engineering",
+    "MIN"  => "Mining Engineering",
+    "MET"  => "Metallurgical Engineering",
+    "ENV"  => "Environmental Engineering",
+    "ARCH" => "Architecture",
+    "MBA"  => "Management / Business Administration",
+    "MCA"  => "Computer Applications (MCA)",
+    "SCI"  => "Pure Sciences",
+    "HUM"  => "Humanities"
+];
